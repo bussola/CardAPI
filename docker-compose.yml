@@ -1,0 +1,13 @@
+version: "3.4"
+services:
+  collectioncore:
+    container_name: collection-core
+    build:
+      context: ./
+      dockerfile: Dockerfile-nexxdev
+    ports:
+      - "6600:6600"
+    volumes:
+      - ${PWD}/./:/app:z
+    env_file:
+      - ./extra/user/${USER}.env
