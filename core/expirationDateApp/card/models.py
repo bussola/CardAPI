@@ -27,12 +27,13 @@ class Card(models.Model):
         db_column='nome_cartao'
     )
 
-    card_number = models.IntegerField(
+    card_number = models.CharField(
         verbose_name=_('card_number'),
+        max_length=16,
         db_column='num_cartao'
     )
 
-    month= models.IntegerField(
+    month = models.IntegerField(
         verbose_name=_('Month'),
         choices=MONTH_CHOICES,
         db_column='mes_exp'
