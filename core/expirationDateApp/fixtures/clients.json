@@ -1,0 +1,28 @@
+[
+  {
+    "model": "expirationDateApp.client",
+    "pk": 1,
+    "fields": {
+      "name": "Roberto Justus",
+      "number": 12,
+      "address": "Rua do Aprendiz",
+      "neighborhood": "Lapa",
+      "city": "Sao Paulo",
+      "uf": "SP",
+      "cep": "99000111"
+    }
+  },
+  {
+    "model": "expirationDateApp.client",
+    "pk": 2,
+    "fields": {
+      "name": "Luciano Huck",
+      "number": 6,
+      "address": "Rua do Caldeirao",
+      "neighborhood": "Ipanema",
+      "city": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "99000112"
+    }
+  }
+]
