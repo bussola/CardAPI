@@ -2,6 +2,8 @@ from django.test import TestCase
 from expirationDateApp.card.models import Card
 from expirationDateApp.client.models import Client
 from mixer.backend.django import mixer
+from django.urls import reverse
+from rest_framework.status import HTTP_201_CREATED, HTTP_200_OK, HTTP_400_BAD_REQUEST
 
 
 class CardTestCase(TestCase):
@@ -26,10 +28,10 @@ class CardTestCase(TestCase):
             is_active=True
         )
 
+        cartoes = mixer.cycle(5).blend('expirationDateApp.Card')
+        print(cartoes)
+
     def test_card_is_active(self):
         card = Card.objects.get(card_number=1234567890123456)
         self.assertEqual(card.is_active, True)
 
-    def test_expiration_date(self):
-        cartoes = mixer.cycle(10).blend('expirationDateApp.Card')
-        print(cartoes)

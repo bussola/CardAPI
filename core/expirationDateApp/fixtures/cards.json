@@ -3,7 +3,7 @@
     "model": "expirationDateApp.card",
     "pk": 1,
     "fields": {
-      "client_id": 1,
+      "client_id": 111,
       "card_holder": "Roberto Justus",
       "card_number": "1111111111119374",
       "month": "04",
@@ -15,8 +15,20 @@
     "model": "expirationDateApp.card",
     "pk": 2,
     "fields": {
-      "client_id": 2,
+      "client_id": 222,
       "card_holder": "Luciano Huck",
+      "card_number": "1111111111113649",
+      "month": "04",
+      "year": "2023",
+      "is_active": "True"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 3,
+    "fields": {
+      "client_id": 333,
+      "card_holder": "Homer",
       "card_number": "1111111111113649",
       "month": "04",
       "year": "2023",
