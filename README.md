@@ -94,6 +94,7 @@ Acessar o swagger: ```http://localhost:8000/swagger```
 
 ### Importação CSV
 1 - Para importar os dados do CSV:
+- Coloque os arquivos .CSV dentro da pasta core/utils/csv:
 ```
 python manage.py insert_clients
 ```
