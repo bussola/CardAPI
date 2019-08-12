@@ -101,3 +101,6 @@ python manage.py insert_clients
 ```
 python manage.py insert_cards
 ```
+
+### Endpoint valid-thru
+- Foi desenvolvido o endpoiont valid-thru, que recebe dois parametros (year e month) e retorna os cartões ativos com vencimento nesta data.
