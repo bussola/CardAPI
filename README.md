@@ -90,3 +90,13 @@ sudo docker-compose up
 ```
 
 Acessar o swagger: ```http://localhost:8000/swagger```
+
+
+### Importação CSV
+1 - Para importar os dados do CSV:
+```
+python manage.py insert_clients
+```
+```
+python manage.py insert_cards
+```
