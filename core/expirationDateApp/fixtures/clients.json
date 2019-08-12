@@ -31,11 +31,11 @@
     "fields": {
       "name": "Homer Simpson",
       "number": 61,
-      "address": "Rua do Caldeirao",
-      "neighborhood": "Ipanema",
-      "city": "Rio de Janeiro",
-      "uf": "RJ",
-      "cep": "99000112"
+      "address": "Rua evergreen",
+      "neighborhood": "Bairro",
+      "city": "Springfield",
+      "uf": "AB",
+      "cep": "99000113"
     }
   }
 ]

@@ -15,10 +15,10 @@
     "model": "expirationDateApp.card",
     "pk": 2,
     "fields": {
-      "client_id": 222,
-      "card_holder": "Luciano Huck",
-      "card_number": "1111111111113649",
-      "month": "04",
+      "client_id": 111,
+      "card_holder": "Roberto Justus Jr",
+      "card_number": "1111111111119375",
+      "month": "05",
       "year": "2023",
       "is_active": "True"
     }
@@ -27,10 +27,82 @@
     "model": "expirationDateApp.card",
     "pk": 3,
     "fields": {
+      "client_id": 111,
+      "card_holder": "Roberta Justus",
+      "card_number": "1111111111119376",
+      "month": "04",
+      "year": "2023",
+      "is_active": "True"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 4,
+    "fields": {
+      "client_id": 222,
+      "card_holder": "Luciano Huck",
+      "card_number": "1111111111113649",
+      "month": "05",
+      "year": "2023",
+      "is_active": "True"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 5,
+    "fields": {
+      "client_id": 222,
+      "card_holder": "Angelica Taxi",
+      "card_number": "1111111111113650",
+      "month": "04",
+      "year": "2023",
+      "is_active": "True"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 6,
+    "fields": {
+      "client_id": 222,
+      "card_holder": "Lucianinho Huck",
+      "card_number": "1111111111113651",
+      "month": "04",
+      "year": "2023",
+      "is_active": "False"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 7,
+    "fields": {
       "client_id": 333,
       "card_holder": "Homer",
-      "card_number": "1111111111113649",
+      "card_number": "1111111111113655",
       "month": "04",
+      "year": "2023",
+      "is_active": "True"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 8,
+    "fields": {
+      "client_id": 333,
+      "card_holder": "Marge",
+      "card_number": "1111111111113656",
+      "month": "04",
+      "year": "2023",
+      "is_active": "False"
+    }
+  },
+  {
+    "model": "expirationDateApp.card",
+    "pk": 9,
+    "fields": {
+      "client_id": 333,
+      "card_holder": "Bart",
+      "card_number": "1111111111113657",
+      "month": "05",
       "year": "2023",
       "is_active": "True"
     }

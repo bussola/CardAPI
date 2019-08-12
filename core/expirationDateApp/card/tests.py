@@ -182,6 +182,14 @@ class CardDeleteTest(TestCase):
             year='2022',
             is_active='True'
         )
+        Card.objects.create(
+            id=2, client_id=cliente1,
+            card_holder="Joao2",
+            card_number='1111222233334444',
+            month='12',
+            year='2022',
+            is_active='False'
+        )
 
     def test_valid_delete_card(self):
         response = self.client.delete(
@@ -193,3 +201,17 @@ class CardDeleteTest(TestCase):
         response = self.client.delete(
             (self.uri + '999/'),)
         self.assertEqual(response.status_code, HTTP_404_NOT_FOUND)
+
+    def test_valid_thru(self):
+        response = self.client.get(
+            (self.uri + '?month=12&year=2022'),)
+        print(response)
+        for r in response:
+            if "Joao1" in str(r):
+                self.assertEqual(HTTP_200_OK, HTTP_200_OK)
+            else:
+                self.assertEqual(HTTP_200_OK, HTTP_404_NOT_FOUND)
+            if "Joao2" in str(r):
+                self.assertEqual(HTTP_200_OK, HTTP_404_NOT_FOUND)
+            else:
+                self.assertEqual(HTTP_200_OK, HTTP_200_OK)
