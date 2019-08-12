@@ -1,7 +1,7 @@
 # Card API
 
 Projeto core da API CARD
- - Para acessar os dados, utilizar http://127.0.0.1:8000/admin/
+ - Para acessar os dados (criar, update, excluir), utilizar http://127.0.0.1:8000/admin/
  - Usuário: user
  - Senha: senha123
 
