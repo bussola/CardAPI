@@ -55,7 +55,12 @@ Para bibliotecas exclusivas de desenvolvimento, execute a seguinte sequência pa
 
 Para rodar o projeto em um servidor local, na raíz do projeto execute:
 
-
+```
+python manage.py makemigrations
+```
+```
+python manage.py migrate
+```
 ```
 python manage.py runserver
 ```
