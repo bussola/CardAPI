@@ -3,7 +3,7 @@
 Projeto core da API CARD
 
 ### API's
-<a href='http://127.0.0.1:8000/swagger/'><img src="https://img.shields.io/badge/swagger-dev-green.svg"></a>
+
 
 ## Getting started
 
