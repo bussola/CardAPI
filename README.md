@@ -77,13 +77,8 @@ sudo apt-get install docker.io
 ```
 sudo apt-get install docker-compose
 ```
-3 - Editar o arquivo ```/etc/docker/daemon.json``` para enxergar o DNS da Nexxera:
-```
-{
-"dns": ["10.9.15.61"]
-}
-```
-4 - Restart no docker:
+
+3 - Restart no docker:
 ```
 systemctl restart docker
 ```
