@@ -205,13 +205,12 @@ class CardDeleteTest(TestCase):
     def test_valid_thru(self):
         response = self.client.get(
             (self.uri + '?month=12&year=2022'),)
-        print(response)
         for r in response:
             if "Joao1" in str(r):
-                self.assertEqual(HTTP_200_OK, HTTP_200_OK)
+                self.assertEqual(response.status_code, HTTP_200_OK)
             else:
                 self.assertEqual(HTTP_200_OK, HTTP_404_NOT_FOUND)
             if "Joao2" in str(r):
                 self.assertEqual(HTTP_200_OK, HTTP_404_NOT_FOUND)
             else:
-                self.assertEqual(HTTP_200_OK, HTTP_200_OK)
+                self.assertEqual(response.status_code, HTTP_200_OK)
