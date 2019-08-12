@@ -103,4 +103,7 @@ python manage.py insert_cards
 ```
 
 ### Endpoint valid-thru
-- Foi desenvolvido o endpoiont valid-thru, que recebe dois parametros (year e month) e retorna os cartões ativos com vencimento nesta data.
+- Foi desenvolvido o endpoint valid-thru, que recebe dois parametros (year e month) e retorna os cartões ativos com vencimento nesta data:
+```
+http://127.0.0.1:8000/valid-thru/?month=4&year=2023
+```
