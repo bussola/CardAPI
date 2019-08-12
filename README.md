@@ -2,8 +2,6 @@
 
 Projeto core da API CARD
 
-### API's
-
 
 ## Getting started
 
@@ -12,8 +10,6 @@ Instale também o gerenciador de pacotes (pip) para gerenciar as dependências d
 
 
 As dependências do projeto estão listadas em requirements.txt.
-
-
 
 
 #### Configurando o ambiente de desenvolvimento
